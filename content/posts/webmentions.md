@@ -9,6 +9,16 @@ pinned: true
 
 ## TLDR
 
+<cloudinary-picture
+  src="assets/images/claudio-schwarz-pv-n00Z7x54-unsplash"
+  alt="TODO: describe this image"
+  width="8736"
+  height="11648"
+  sizes="(min-width: 768px) 720px, 100vw"
+  breakpoints="50, 440, 661, 722, 856, 993, 1000"
+  picture-class="responsive-picture"
+/>
+
 1. Add a link on your homepage to either your GitHub profile and/or email address as per [IndieLogin's](https://indielogin.com/setup) instructions. You _could_ do this via `src/components/SocialList.astro`, just be sure to include `isWebmention` to the relevant link if doing so.
 2. Create an account @ [Webmention.io](https://webmention.io/) by entering your website's address.
 3. Add the link feed and api key to a `.env` file with the key `WEBMENTION_URL` and `WEBMENTION_API_KEY` respectively, you could rename `.env.example` found in this template. You can also add the optional `WEBMENTION_PINGBACK` link here too.

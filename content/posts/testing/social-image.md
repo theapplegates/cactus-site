@@ -5,6 +5,16 @@ description: "An example post for Astro Cactus, detailing how to add a custom so
 tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
+<cloudinary-picture
+  src="assets/images/luthfi-alfarizi-gkCJeQOLdmw-unsplash"
+  alt="TODO: describe this image"
+  width={2800}
+  height={3500}
+  devices="1200|40|original,992|60|16:9,768|70|4:3,0|100|1:1"
+  breakpoints={breakpoints["assets/images/luthfi-alfarizi-gkCJeQOLdmw-unsplash"]}
+  pictureClass="responsive-picture"
+/>
+
 
 ## Adding your own social image to a post
 
