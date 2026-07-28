@@ -5,7 +5,11 @@ description: "An example post for Astro Cactus, detailing how to add a custom so
 tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
-<cloudinary-picture
+
+import Picture from "@/components/Picture.astro";
+import breakpoints from "@/data/cloudinary-breakpoints.json";
+
+<Picture
   src="assets/images/luthfi-alfarizi-gkCJeQOLdmw-unsplash"
   alt="TODO: describe this image"
   width={2800}
